@@ -28,7 +28,7 @@ body{
     padding-top: 2%;
     margin: 0;
     margin-left: 3%;
-    color: #ecdec6;
+    color: #d2c7b6;
 }
 
 .info p {
@@ -62,7 +62,17 @@ body{
     left: 0;
     width: 100%; /* Couvre toute la largeur */
     height: 100%; /* Couvre toute la hauteur */
-    object-fit: cover; /* L'ajuste pour garder l'aspect sans déformer */
-    z-index: -1; /* Place la vidéo derrière tout le contenu */
-    opacity: 20%;
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 18%;
+  }
+
+
+  a{
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .profil span:hover{
+    text-decoration: underline;
   }
