@@ -1,0 +1,78 @@
+.cen{
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 17%;
+    border-radius: 15px;
+    padding-bottom: 3%;
+    background-color: white;
+    
+}
+
+body{
+    cursor: pointer;
+    animation: gradientMove 5s ease infinite;
+    
+}
+
+
+
+.cen img{
+   float: right;
+   margin-top: -6%;
+   border-radius: 200%;
+   margin-right: 2%;
+}
+
+.cen h1{
+    padding-top: 2%;
+    margin: 0;
+    margin-left: 3%;
+    color: #d2c7b6;
+}
+
+.info p {
+    margin: 0; 
+   margin-left: 4%;
+   font-size: 18px;
+   transition: transform 0.3s ease; 
+   font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .info{
+    margin-top: 2%;
+  }
+
+  .profil p{
+    margin: 0; 
+    margin-left: 6%;
+    font-size: 19px;
+  }
+
+  .info p:hover {
+    transform: translateX(1%); 
+    color: rgb(119, 118, 118);
+  }
+  
+
+  #background-video {
+    position: fixed; /* Fixe la vidéo en arrière-plan */
+    top: 0;
+    left: 0;
+    width: 100%; /* Couvre toute la largeur */
+    height: 100%; /* Couvre toute la hauteur */
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 18%;
+  }
+
+
+  a{
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .profil span:hover{
+    text-decoration: underline;
+  }

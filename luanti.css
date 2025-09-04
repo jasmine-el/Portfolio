@@ -1,0 +1,109 @@
+.title{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+}
+
+.descrip{
+    margin-top: -1.5%;
+    color: rgb(82, 82, 82);
+}
+
+body{
+    text-align: center;
+}
+
+
+.princip h1{
+    font-size: 25px;
+}
+
+ #background-video {
+    position: fixed; /* Fixe la vidéo en arrière-plan */
+    top: 0;
+    left: 0;
+    width: 100%; /* Couvre toute la largeur */
+    height: 100%; /* Couvre toute la hauteur */
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 18%;
+  }
+
+
+  .princip p{
+    font-size: 20px;
+  }
+
+
+  .actions{
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .actions h3{
+font-size: 23px;
+text-decoration: underline;
+text-underline-offset: 15%;
+  }
+
+  .actions ul{
+    font-size: 23px;
+  }
+
+  .res{
+    font-size: 30px;
+    
+  }
+
+  a{
+    color: inherit;
+    
+  }
+
+
+  .white{
+    background-color: white;
+   margin-left: 13%;
+   margin-right: 13%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   border-radius: 8%;
+  }
+
+  
+
+  img{
+border-radius: 3%;
+  }
+
+  .res p{
+    font-size: 14px;
+    margin-top: -4%;
+    margin-left: 48%;
+  }
+
+  .res h3{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0.7%;
+  }
+
+  .res h3:hover{
+    text-decoration: underline;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  video{
+    margin-left: 25%;
+    border-radius: 5%;
+  }
+
+  .demo p{
+    margin-right: 30%;
+    font-size: 17px;
+    margin-top: 0%;
+    text-align: end;
+  }
