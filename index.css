@@ -29,6 +29,7 @@ body{
     margin: 0;
     margin-left: 3%;
     color: #d2c7b6;
+     text-shadow: 1px 0px 1px rgba(0,0,0,0.5);
 }
 
 .info p {
