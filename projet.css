@@ -3,6 +3,7 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 6px;
+    
 }
 
 .con h3{
@@ -23,6 +24,8 @@
 .proj:hover{
     background-color: rgb(232, 232, 232);
 }
+
+
 
 .proj img{
     position: absolute;
@@ -189,3 +192,9 @@ margin-top: 0.3%;
     color: inherit;
     text-decoration: inherit;
   }
+
+  .con p{
+    margin-left: 1.6%;
+    margin-top: -1.5%;
+  }
+
